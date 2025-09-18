@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selyon Digital - Huduma za Kidijitali</title>
+    <style>
+        /* CSS Kwa ajili ya muonekano */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+
+        header h1 {
+            margin: 0;
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        #showcase {
+            min-height: 400px;
+            background: url('https://source.unsplash.com/random/1600x900/?technology,digital') no-repeat 0 -400px;
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #showcase h2 {
+            font-size: 55px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        #showcase p {
+            font-size: 20px;
+            text-shadow: 1px 1px 2px #000000;
+        }
+
+        .section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background: #ffffff;
+            border-radius: 5px;
+        }
+
+        .section h3 {
+            color: #0779e4;
+            text-align: center;
+            font-size: 2em;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+
+        .service-item {
+            padding: 15px;
+        }
+        
+        .service-item img {
+            max-width: 80px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        /* Responsive design kwa simu */
+        @media(max-width: 768px){
+            .container {
+                width: 90%;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+            #showcase h2 {
+                font-size: 2.5em;
+            }
+            .section h3 {
+                 font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Selyon Digital</h1>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h2>Tunakuza Biashara Yako Kidijitali</h2>
+            <p>Tunatoa huduma za kisasa za uuzaji mtandaoni, usanifu wa tovuti na ushauri wa kiteknolojia.</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h3>Kuhusu Sisi</h3>
+            <p>
+                Selyon Digital ni kampuni bunifu inayojikita katika kutoa suluhisho za kidijitali kwa wafanyabiashara na makampuni. Lengo letu ni kuhakikisha unapata matokeo bora kupitia mtandao. Tunafanya kazi kwa ukaribu na wateja wetu ili kuelewa mahitaji yao na kutoa huduma zinazokidhi malengo yao.
+            </p>
+        </section>
+
+        <section id="services" class="section">
+            <h3>Huduma Zetu</h3>
+            <div class="services-grid">
+                <div class="service-item">
+                    <img src="https://img.icons8.com/color/96/000000/web-design.png" alt="Web Design Icon">
+                    <h4>Usanifu wa Tovuti (Web Design)</h4>
+                    <p>Tunatengeneza tovuti za kisasa na zinazoendana na vifaa vyote kama simu na kompyuta.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://img.icons8.com/color/96/000000/digital-marketing.png" alt="Digital Marketing Icon">
+                    <h4>Uuzaji Mtandaoni (Digital Marketing)</h4>
+                    <p>Tunakusaidia kuitangaza biashara yako kwenye mitandao ya kijamii na Google.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://img.icons8.com/color/96/000000/support.png" alt="IT Consulting Icon">
+                    <h4>Ushauri wa IT (IT Consulting)</h4>
+                    <p>Tunatoa ushauri wa kitaalamu kuhusu matumizi bora ya teknolojia kwenye biashara yako.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h3>Wasiliana Nasi</h3>
+            <p style="text-align: center;">
+                Je, uko tayari kuanza mradi wako? Wasiliana nasi leo! <br>
+                <strong>Baruapepe:</strong> info@selyondigital.com <br>
+                <strong>Simu:</strong> +255 7XX XXX XXX
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Selyon Digital &copy; 2025 | Haki zote zimehifadhiwa.</p>
+    </footer>
+
+</body>
+</html>
